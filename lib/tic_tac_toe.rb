@@ -11,7 +11,7 @@ WIN_COMBINATIONS =
 [6, 4, 2]]
 
 def move(board, position, player)
-  
+  board[position] = player
 end
 
 def input_to_index(user_input)
